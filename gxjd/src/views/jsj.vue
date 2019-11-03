@@ -26,50 +26,6 @@
           <span></span>
           <span></span>
         </div>
-    </div>
-    </div>
-    <div class="listimg">
-      <div class="container">
-        <div class="box">
-          <div class="imgbox">
-            <img src="../assets/homeimgs/jxgc4.png" alt="">
-          </div>
-          <div class="content">
-            <h2>计算机应用技术专业</h2>
-            <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
-            <a href="#">更多...</a>
-          </div>
-        </div>
-          <div class="box">
-            <div class="imgbox">
-              <img src="../assets/homeimgs/jxgc2.png" alt="">
-            </div>
-          <div class="content">
-            <h2>软件技术专业</h2>
-            <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
-            <a href="#">更多...</a>
-          </div>
-        </div>
-          <div class="box">
-            <div class="imgbox">
-              <img src="../assets/homeimgs/jxgc3.jpg" alt="">
-            </div>
-          <div class="content">
-            <h2>计算机网络技术专业</h2>
-            <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
-            <a href="#">更多...</a>
-          </div>
-        </div>
-          <div class="box">
-            <div class="imgbox">
-              <img src="../assets/homeimgs/jxgc4.png" alt="">
-            </div>
-          <div class="content">
-            <h2>物联网应用技术专业</h2>
-            <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
-            <a href="#">更多...</a>
-          </div>
-        </div>
       </div>
     </div>
     <div class="newscontent clear">
@@ -141,6 +97,95 @@
             <li><i>&#xe60a;</i><a href="#">Incidunt fugiat perferendi【不忘初心、牢记使命】赖晓桦院长讲授“不忘初心、牢记使命”主题【不忘初心、牢记使命】赖晓桦院长讲授“不忘初心、牢记使命”主题corporis eius.</a></li>
           </ul>
         </div>
+      </div>
+    </div>
+    <div class="lntroduction">
+      <div class="title">
+        <img src="../assets/homeimgs/zyjs_title1.png" alt="">
+      </div>
+      <div class="lists">
+        <ul>
+          <li>
+            <a href="">
+              <i>&#xe60a;</i>
+              <div>计算机应用技术专业</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i>&#xe60a;</i>
+              <div>软件技术专业</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i>&#xe60a;</i>
+              <div>计算机网络技术专业</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i>&#xe60a;</i>
+              <div>物联网应用技术专业</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i>&#xe60a;</i>
+              <div>计算机信息管理-网站设计与维护专业</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i>&#xe60a;</i>
+              <div>软件技术专业（数据智能处理）</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="listimg">
+      <div class="container">
+        <div class="box">
+          <div class="imgbox">
+            <img src="../assets/homeimgs/jxgc4.png" alt="">
+          </div>
+          <div class="content">
+            <h2>计算机应用技术专业</h2>
+            <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
+            <a href="#">更多...</a>
+          </div>
+        </div>
+          <div class="box">
+            <div class="imgbox">
+              <img src="../assets/homeimgs/jxgc2.png" alt="">
+            </div>
+            <div class="content">
+              <h2>软件技术专业</h2>
+              <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
+              <a href="#">更多...</a>
+            </div>
+        </div>
+          <div class="box">
+            <div class="imgbox">
+              <img src="../assets/homeimgs/jxgc3.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2>计算机网络技术专业</h2>
+              <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
+              <a href="#">更多...</a>
+            </div>
+        </div>
+          <div class="box">
+            <div class="imgbox">
+              <img src="../assets/homeimgs/jxgc4.png" alt="">
+            </div>
+            <div class="content">
+              <h2>物联网应用技术专业</h2>
+              <p>计算机与信息工程系是学院成立最早的系部之一，形成了以应用为特色，软、硬件并重，教学和技术开发兼顾的办学风格。现有计算机应用技术、软件技术、计算机信息管理、计算机网络技术、图文信息技术、物联网应用技术等5个专业，在校生1212多人，其中计算机应用技术为自治区优质专业。</p>
+              <a href="#">更多...</a>
+            </div>
+          </div>
       </div>
     </div>
     <footsc></footsc>
@@ -403,6 +448,64 @@ export default {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
+.lntroduction{
+  width: 1200px;
+  margin: 60px auto;
+  border-left: 8px solid rgb(173,200,215);
+  border-right: 8px solid rgb(173,200,215);
+  box-sizing: border-box;
+  padding: 40px 0;
+  border-radius: 20px;
+}
+.lntroduction .title{
+  text-align: center
+}
+.lntroduction .lists ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.lntroduction .lists ul li{
+  width: 300px;
+  height: 175px;
+  text-align: center;
+}
+.lntroduction .lists ul li a {
+  color: rgb(41,62,106);
+  text-decoration: none;
+}
+.lntroduction .lists ul li a i{
+  font-family: 'iconfont';
+  font-style: normal;
+  font-size: 56px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+.lntroduction .lists ul li a i:hover{
+  transform-style: preserve-3d;
+  animation: ico 4s ;
+  color: rgb(51,148,223)
+}
+.lntroduction .lists ul li a div{
+  width: 60%;
+  height: 65px;
+  font-size: 16px;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-weight: bold
+}
+.lntroduction .lists ul li:hover a div{
+  color: rgb(254,127,37)
+}
+@keyframes ico{
+      0%{
+      transform: rotateY(0)
+    }
+    100%{
+      transform: rotateY(360deg)
+    }
+}
 </style>
 <style>
 .newscontent .newsdt .block .el-carousel__indicator.is-active button{

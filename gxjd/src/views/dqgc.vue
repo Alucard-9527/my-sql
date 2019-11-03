@@ -228,6 +228,10 @@ export default {
     color: #8a8a8a;
     text-indent: 2em;
   }
+  .mainnews .mainvideo{
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
  .mainnews .mainvideo ul{
    display: flex;
  }
@@ -252,7 +256,7 @@ export default {
 .message{
   width: 100%;
   height: 330px;
-  background: rgba(16,75,169,.8);
+  background: rgba(16,75,169,.7);
   position: relative;
   }
   .message .imgtx{
@@ -297,13 +301,22 @@ export default {
   border-bottom: 8px solid 
 }
 .list-new .outer .outerli:nth-child(1){
-  border-color:rgb(26,120,221)
+  border-color:rgb(26,120,221);
+}
+.list-new .outer .outerli:nth-child(1) .title{
+  background: rgb(26,120,221);
 }
 .list-new .outer .outerli:nth-child(2){
   border-color:rgb(254,127,37)
 }
+.list-new .outer .outerli:nth-child(2) .title{
+  background: rgb(254,127,37);
+}
 .list-new .outer .outerli:nth-child(3){
   border-color:rgb(203,33,39)
+}
+.list-new .outer .outerli:nth-child(3) .title{
+  background: rgb(203,33,39);
 }
 .list-new .outer .outerli:nth-child(3){
   margin-right: 0
@@ -311,7 +324,6 @@ export default {
 .list-new .outer li .title{
   width: 38 0px;
   height: 48px;
-  background: rgb(0, 74, 170)
 }
 .list-new .outer .outerli .title h3{
   color: #fff;

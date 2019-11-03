@@ -1,5 +1,17 @@
 <template>
-  <div class="rwkx">
-    <h1>This is an rwkx page</h1>
+  <div class="nwkx">
+    <footsc></footsc>
   </div>
 </template>
+<script>
+import Footsc from '@/components/Foot-sc.vue'
+
+export default {
+  components:{
+    Footsc
+  },
+}
+</script>
+<style scoped>
+
+</style>

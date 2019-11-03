@@ -1,5 +1,17 @@
 <template>
-  <div class="sszx">
-    <h1>This is an sszx page</h1>
+  <div class="sxzz">
+    <footsc></footsc>
   </div>
 </template>
+<script>
+import Footsc from '@/components/Foot-sc.vue'
+
+export default {
+  components:{
+    Footsc
+  },
+}
+</script>
+<style scoped>
+
+</style>

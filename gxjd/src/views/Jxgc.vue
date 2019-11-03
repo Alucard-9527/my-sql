@@ -80,13 +80,13 @@ export default {
 <style scoped>
 .jxgc{
  width: 100%;
- height: calc(100vh);
  padding-top: 20px; 
 
 }
 .Cmap{
   width: 1300px;
   margin: 0 auto;
+  padding-top: 40px;
 }
 .block{
   width: 500px;
@@ -113,7 +113,9 @@ h2{
   }
 .teacher{
   width: 1300px;
-  margin: 40px auto 0;
+  margin: 0 auto;
+  padding-top: 80px;
+  margin-bottom: 40px;
   }
   .teacher .teacherimgs{
     display: flex;
@@ -124,8 +126,9 @@ h2{
   }
 .news{
   width: 1300px;
-  margin: 40px auto;
+  margin: 0 auto;
   display: flex;
+  padding:40px 0;
 }
 .MainContent{
   float:left;

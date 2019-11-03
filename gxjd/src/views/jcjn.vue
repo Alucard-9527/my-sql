@@ -1,5 +1,17 @@
 <template>
-  <div class="jcjn">
-    <h1>This is an jcjn page</h1>
+  <div class="qcgc">
+    <footsc></footsc>
   </div>
 </template>
+<script>
+import Footsc from '@/components/Foot-sc.vue'
+
+export default {
+  components:{
+    Footsc
+  },
+}
+</script>
+<style scoped>
+
+</style>
