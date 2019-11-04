@@ -484,7 +484,7 @@ export default {
 }
 .lntroduction .lists ul li a i:hover{
   transform-style: preserve-3d;
-  animation: ico 4s ;
+  animation: ico 3s infinite alternate;
   color: rgb(51,148,223)
 }
 .lntroduction .lists ul li a div{

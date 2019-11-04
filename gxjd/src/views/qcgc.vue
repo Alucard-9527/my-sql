@@ -231,6 +231,7 @@ export default {
 .topnews .row2{
   padding-top: 80px;
   display: flex;
+  padding-bottom: 40px
   }
   .topnews .row2 .box{
     flex: 1;
@@ -252,6 +253,9 @@ export default {
   .topnews .row2 .box a{
     text-decoration: none;
     color: #000;
+  }
+  .topnews .row2 .box a:hover{
+    color: rgb(254,127,37)
   }
   .topnews .row2 .box h3{
     font-size: 24px;
