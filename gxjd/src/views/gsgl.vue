@@ -1,6 +1,7 @@
 <template>
   <div class="gsgl">
     <div class="content">
+      <commissionNav :contents=contents></commissionNav>
       <el-carousel indicator-position="none" height="500px">
         <el-carousel-item v-for="(item, index) in imgs" :key="index">
           <img :src="item.load" :alt="item.name">
@@ -99,10 +100,12 @@
 </template>
 <script>
 import Footsc from '@/components/Foot-sc.vue'
+import CommissionNav from'@/components/CommissionNav.vue'
 
 export default {
   components:{
-    Footsc
+    Footsc,
+    CommissionNav
   },
     data(){
     return{
@@ -110,12 +113,24 @@ export default {
           { load: require('../assets/homeimgs/IMG_012.jpg'), name: '图一' },
           { load: require('../assets/homeimgs/IMG_013.jpg'), name: '图二' },
           { load: require('../assets/homeimgs/IMG_014.jpg'), name: '图三' }
+      ],
+        contents:[
+          {navs:'系部首页'},
+          {navs:'系部简介'},
+          {navs:'师资力量'},
+          {navs:'专业建设'},
+          {navs:'教学科研'},
+          {navs:'实训基地'},
+          {navs:'学生园地'},
       ]
     }
   }
 }
 </script>
 <style scoped>
+.nevs{
+  margin: 0
+}
 .gsgl{
   position: relative;
   }

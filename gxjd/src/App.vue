@@ -30,16 +30,21 @@
         <el-menu-item index="2" ><router-link to="/jxgc">机械工程系</router-link></el-menu-item>
         <el-menu-item index="3"><router-link to="/dqgc">电气工程系</router-link></el-menu-item>
         <el-menu-item index="4"><router-link to="/gsgl">工商管理系</router-link></el-menu-item>
-        <el-menu-item index="5"><router-link to="/jsj">计算机与信息工程系</router-link></el-menu-item>
+        <el-submenu index="5">
+            <template slot="title">计算机与信息工程系</template>
+            <el-menu-item index="5-1" class="el-tow"><router-link to="/jsj">欢迎来到我的网页</router-link></el-menu-item>
+            <el-menu-item index="5-2" class="el-tow"><router-link to="/jsj">网络1701的</router-link></el-menu-item>
+            <el-menu-item index="5-3" class="el-tow"><router-link to="/jsj">黄祖辉</router-link></el-menu-item>
+        </el-submenu>
         <el-menu-item index="6"><router-link to="/qcgc">汽车工程系</router-link></el-menu-item>
         <el-menu-item index="7"><router-link to="/jzgc">建筑工程系</router-link></el-menu-item>
         <el-menu-item index="8"><router-link to="/ysx">艺术系</router-link></el-menu-item>
         <el-menu-item index="9"><router-link to="/rwkx">人文科学系</router-link></el-menu-item>
         <el-submenu index="10">
             <template slot="title">其他</template>
-            <el-menu-item index="10-1"><router-link to="/sxzz">思想政治理论课教学部</router-link></el-menu-item>
-            <el-menu-item index="10-2"><router-link to="/jxjy">继续教育培训中心</router-link></el-menu-item>
-            <el-menu-item index="10-3"><router-link to="/jcjn">基础技能实训中心</router-link></el-menu-item>
+            <el-menu-item index="10-1" class="el-tow"><router-link to="/sxzz">思想政治理论课教学部</router-link></el-menu-item>
+            <el-menu-item index="10-2" class="el-tow"><router-link to="/jxjy">继续教育培训中心</router-link></el-menu-item>
+            <el-menu-item index="10-3" class="el-tow"><router-link to="/jcjn">基础技能实训中心</router-link></el-menu-item>
         </el-submenu>
       </el-menu>
     </div>
@@ -86,7 +91,7 @@ export default {
   url('//at.alicdn.com/t/font_1467029_n5pyoc6464j.svg#iconfont') format('svg');
 }
 #app {
-  min-width: 1600px;
+  min-width: 1620px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -121,7 +126,6 @@ export default {
   }
   #nav .el-menu-demo{
     float: right;
-    display: flex;
   }
   #nav a, .el-menu--horizontal a, .el-submenu__title a{
     font-weight: bold;
@@ -130,6 +134,20 @@ export default {
     width: 100%;
     height: 100%;
     color: #293E6A;
+  }
+  #nav .el-submenu .el-submenu__title{
+    color: #293E6A;
+    font-weight: bold;
+  }
+  .el-menu .el-menu-item{
+    text-align: center;
+  }
+  .el-menu .el-tow{
+    border-left: 1px solid #639cf165;
+    border-right: 1px solid #639cf165;
+  }
+  .el-menu .el-menu-item:hover{
+    background: #639bf1!important
   }
   #nav .el-menu-item:hover, .el-submenu__title:hover{
     background: #639bf1!important;

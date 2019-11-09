@@ -1,6 +1,7 @@
 <template>
   <div class="dqgc">
     <div class="mainnews">
+      <commissionNav :contents=contents></commissionNav>
       <div class="topnew">
         <h3>学院新闻NEWS+</h3>
         <ul class="clear">
@@ -145,10 +146,26 @@
 </template>
 <script>
 import Footsc from '@/components/Foot-sc.vue'
+import CommissionNav from'@/components/CommissionNav.vue'
 
 export default {
   components:{
-    Footsc
+    Footsc,
+    CommissionNav
+  },
+  data () {
+    return{
+      contents:[
+        {navs:'首页'},
+        {navs:'系部概况'},
+        {navs:'专业介绍'},
+        {navs:'师资队伍'},
+        {navs:'实训基地'},
+        {navs:'招生就业'},
+        {navs:'学生工作'},
+        {navs:'党建工作'},
+      ]
+    }
   }
 }
 </script>

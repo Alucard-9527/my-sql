@@ -1,6 +1,7 @@
 <template>
   <div class="jxgc">
     <div class="Cmap clear">
+      <commissionNav :contents=contents></commissionNav>
         <div class="block">
           <el-carousel trigger="click" height="300px">
             <el-carousel-item v-for="(item,index) in imgs" :key="index">
@@ -36,6 +37,8 @@
 <script>
 import MainContent from '@/components/MainContent'
 import Footsc from '@/components/Foot-sc.vue'
+import CommissionNav from'@/components/CommissionNav.vue'
+
 
 export default {
   name: 'Jxgc',
@@ -43,7 +46,8 @@ export default {
   },
   components: {
     MainContent,
-    Footsc
+    Footsc,
+    CommissionNav
   },
   data () {
     return {
@@ -72,6 +76,14 @@ export default {
         {news:'【不忘初心、牢记使命】赖晓桦院长讲授“不忘初心、牢记使命”主题',times:'[10-24'},
         {news:'【不忘初心、牢记使命】赖晓桦院长讲授“不忘初心、牢记使命”主题',times:'[10-24'},
         {news:'【不忘初心、牢记使命】赖晓桦院长讲授“不忘初心、牢记使命”主题',times:'[10-24'},
+      ],
+      contents:[
+        {navs:'系部首页'},
+        {navs:'系部简介'},
+        {navs:'师资队伍'},
+        {navs:'专业建设'},
+        {navs:'实训基地'},
+        {navs:'学生园地'}
       ]
     }
   }

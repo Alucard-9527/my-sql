@@ -5,6 +5,7 @@
         <h2>系部介绍</h2>
         <p>汽车工程系拥有雄厚的师资力量。现有专兼职教师37人，其中高级职称10人，中级职称13人。系部各教学团队既具有扎实的理论知识和丰富的教育教学经验，又具备较强的工程实践能力科研能力，承担了多项自治区级、厅级和院级科研项目，拥有汽车新型燃料专利2项。</p>
       </div>
+      <commissionNav :contents=contents></commissionNav>
       <div class="row1 clear">
         <dl>
           <dt>学院要闻</dt>
@@ -109,11 +110,26 @@
 </template>
 <script>
 import Footsc from '@/components/Foot-sc.vue'
+import CommissionNav from'@/components/CommissionNav.vue'
 
 export default {
   components:{
-    Footsc
+    Footsc,
+    CommissionNav
   },
+  data (){
+    return{
+      contents:[
+        {navs:'系部首页'},
+        {navs:'系部简介'},
+        {navs:'师资力量'},
+        {navs:'专业建设'},
+        {navs:'教学科研'},
+        {navs:'实训基地'},
+        {navs:'学生园地'},
+      ]
+    }
+  }
 }
 </script>
 <style scoped>
@@ -126,6 +142,9 @@ export default {
   margin: 0 auto;
   background: rgba(108,135,164,.3);
   padding:0 20px
+  }
+  .topnews .nevs .titlenav{
+    box-shadow: none;
   }
   .topnews .introduction{
     padding-top: 20px;

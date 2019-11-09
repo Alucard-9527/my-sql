@@ -6,6 +6,7 @@
         <img :src="item.load" :alt="item.name">
       </el-carousel-item>
     </el-carousel>
+    <commissionNav :contents=contents></commissionNav>
     <div class="row1 clear">
       <div class="title">
         <h2>学院要闻</h2>
@@ -68,17 +69,29 @@
 </template>
 <script>
 import Footsc from '@/components/Foot-sc.vue'
+import CommissionNav from'@/components/CommissionNav.vue'
 
 export default {
   components:{
-    Footsc
+    Footsc,
+    CommissionNav
   },
     data(){
     return{
-        imgs: [
-          { load: require('../assets/homeimgs/IMG_012.jpg'), name: '图一' },
-          { load: require('../assets/homeimgs/IMG_013.jpg'), name: '图二' },
-          { load: require('../assets/homeimgs/IMG_014.jpg'), name: '图三' }
+      imgs: [
+        { load: require('../assets/homeimgs/IMG_012.jpg'), name: '图一' },
+        { load: require('../assets/homeimgs/IMG_013.jpg'), name: '图二' },
+        { load: require('../assets/homeimgs/IMG_014.jpg'), name: '图三' }
+      ],
+      contents:[
+        {navs:'首页'},
+        {navs:'系部介绍'},
+        {navs:'党团建设'},
+        {navs:'专业介绍'},
+        {navs:'师资力量'},
+        {navs:'实训基地'},
+        {navs:'学生园地'},
+        {navs:'作品展示'},
       ]
     }
   }

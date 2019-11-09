@@ -29,6 +29,7 @@
       </div>
     </div>
     <div class="newscontent clear">
+      <commissionNav :contents=contents></commissionNav>
       <div class="newsdt flo">
         <div class="toptitlte">
           <h3>新闻动态</h3>
@@ -193,10 +194,12 @@
 </template>
 <script>
 import Footsc from '@/components/Foot-sc.vue'
+import CommissionNav from'@/components/CommissionNav.vue'
 
 export default {
   components:{
-    Footsc
+    Footsc,
+    CommissionNav
   },
   data(){
     return{
@@ -205,7 +208,15 @@ export default {
           { load: require('../assets/imgs/3.jpg'), name: '图二' },
           { load: require('../assets/imgs/4.jpg'), name: '图三' },
           { load: require('../assets/imgs/5.jpg'), name: '图四' }
-      ]
+          ],
+        contents:[
+          {navs:'系部简介'},
+          {navs:'师资力量'},
+          {navs:'专业建设'},
+          {navs:'创新创业'},
+          {navs:'实训基地'},
+          {navs:'党团园地'},
+          ]
     }
   }
 }
@@ -330,12 +341,13 @@ export default {
     height: 55%;
     padding: 10px;
     box-sizing: border-box;
-    display: none;
     font-size: 16px;
     color: rgb(41,62,106);
+    opacity:0;
+    transition: opacity 2s;
   }
   .container .box:hover .content{
-    display: block;
+    opacity: 1;
   }
   .container .box .content h2{
     font-size: 26px;
@@ -482,7 +494,7 @@ export default {
   width: 60%;
   margin: 0 auto;
 }
-.lntroduction .lists ul li a i:hover{
+.lntroduction .lists ul li a:hover i{
   transform-style: preserve-3d;
   animation: ico 3s infinite alternate;
   color: rgb(51,148,223)

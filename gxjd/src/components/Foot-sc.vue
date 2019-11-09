@@ -1,6 +1,6 @@
 <template>
   <div class="foot-sc">
-      <div class="footer">
+      <div class="footer clear">
           <div class="blog"><img src="../assets/homeimgs/logo.jpg" alt=""></div>
           <div class="contents">
               <ul>

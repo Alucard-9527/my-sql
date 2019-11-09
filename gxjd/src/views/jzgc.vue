@@ -103,7 +103,7 @@ export default {
   }
 .jzgc .topnev .nevs{
   height: 50px;
-  background: linear-gradient(top,#56a0de,#1774de);
+  background: linear-gradient(to left,#56a0de,#1774de);
   line-height: 50px;
   text-align: center;
   font-size: 22px;
@@ -123,8 +123,6 @@ export default {
   .jzgc .topnev .nevs .titlenve li:hover{
     background-color: #56a0de;
   }
-.jzgc .topnev .nevcontent{
-}
 .jzgc .topnev .nevcontent .ltnew{
   width: 470px;
   float: left;
@@ -162,7 +160,7 @@ export default {
     font-size: 32px;
     line-height: 80px;
     height: 80px;
-    background: linear-gradient(left,rgb(51,103,153),rgb(20,125,129))
+    background: linear-gradient(to left,rgb(51,103,153),rgb(20,125,129))
   }
   .jzgc .topnev .nevcontent .ltnew .zyjj ul{
     margin: 0 auto;
@@ -176,7 +174,7 @@ export default {
   .jzgc .topnev .nevcontent .ltnew .zyjj ul li{
     height: 58px;
     line-height: 58px;
-    background: linear-gradient(left,rgb(51,103,153),rgb(20,125,129));
+    background: linear-gradient(to left,rgb(51,103,153),rgb(20,125,129));
     margin: 20px;
     font-size: 24px;
     box-shadow: 2px 2px 1px 1px #56a0de;
