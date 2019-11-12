@@ -2,10 +2,10 @@
   <div class="jxjy">
     <commissionNav :contents=contents></commissionNav>
     <div class="jxjy-top">
-      <div class="title"><h2>继续教育中心</h2></div>
+      <div class="toptitle"><h2>继续教育中心</h2></div>
       <div class="row clear">
         <div class="main-text ft">
-          <div class="main1">
+          <div class="main1 main">
             <div class="title"><h3>联系我们</h3></div>
             <ul>
               <li><a href="">成高函授教育：0771-3248722，余老师</a></li>
@@ -16,7 +16,7 @@
               <li><a href="">职业技能竞赛：0771-3248722，刘老师</a></li>
             </ul>
           </div>
-          <div class="main2">
+          <div class="main2 main">
             <div class="title"><h3>下载专区</h3></div>
             <ul>
               <li><a href="">成高教育</a></li>
@@ -26,7 +26,7 @@
               <li><a href="">技能竞赛</a></li>
             </ul>
           </div>
-          <div class="main3">
+          <div class="main3 main">
             <div class="title"><h3>友情链接</h3></div>
             <ul>
               <li><a href="">中国高职高专教育网</a></li>
@@ -87,7 +87,7 @@ export default {
         {navs:'职业技能培训鉴定'},
         {navs:'技能竞赛'},
         {navs:'继续教育管理系统'}
-        ]
+      ],
     }
   }
 }
@@ -97,7 +97,7 @@ export default {
   width: 1200px;
   margin: 0 auto;
   }
-  .jxjy .jxjy-top .title{
+  .jxjy .jxjy-top .toptitle{
     height: 32px;
     text-align: center;
     font-size: 32px;
@@ -111,8 +111,6 @@ export default {
     display: inline-block;
     padding: 0 20px;
     background: #fff;
-  }
-  .jxjy .jxjy-top .row{
   }
   .jxjy-top .ft{
     margin: 10px 0;
@@ -170,6 +168,8 @@ export default {
     width: 1200px;
     height: 200px;
   }
+  .jxjy-top .row .main-text{
+  }
 .jxjy-top .row .main-text .title{
   height: 60px;
   line-height: 60px;
@@ -179,5 +179,34 @@ export default {
 .jxjy-top .row .main-text .title h3{
   background: linear-gradient(to left,#56a0de,#1774de);
   box-shadow: 10px 5px 10px 1px rgb(143, 221, 231);
+}
+.jxjy-top .row .main-text .main ul{
+  padding: 15px 0;
+}
+.jxjy-top .row .main-text .main ul li{
+  padding-left: 20px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd
+}
+.jxjy-top .row .main-text .main ul li a{
+  text-decoration: none;
+  color: #032C68;
+  position: relative;
+}
+.jxjy-top .row .main-text .main ul li:hover a::after{
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background:#1774de; 
+  clear: both;
+  position: absolute;
+  left: -10px;
+  top: 6px;
 }
 </style>

@@ -63,9 +63,6 @@ export default {
   methods: {
     gohome () {
     },
-    handleSelect (key, keyPath) {
-      console.log(key, keyPath)
-    }
   }
 }
 </script>
